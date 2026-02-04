@@ -202,10 +202,10 @@ ul {
   width: 100%;
 }
 
-/* Hide the checkbox
+Hide the checkbox
 .nav-toggle-checkbox {
   display: none;
-} */
+}
 
 .nav-toggle,
 .nav-close {
@@ -333,6 +333,20 @@ ul {
   z-index: 2;
   animation: fadeInUp 0.8s ease 0.6s backwards;
 }
+
+@media screen and (max-width: 768px) {
+  .hero-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .round-image {
+    width: 260px;
+    height: 260px;
+  }
+}
+
 
 /* ABOUT */
 .about {
